@@ -8,23 +8,37 @@ if($student[1]>79)
 	echo "A+";
 }
 
-if($student[1]>79)
+if($student[1]>69)
 {
-	echo "A+";
+	echo "A";
+	break;
 }
 
-if($student[1]>79)
+if($student[1]>59)
 {
-	echo "A+";
+	echo "A-";
+	break;
 }
 
-if($student[1]>79)
+if($student[1]>49)
 {
-	echo "A+";
+	echo "B";
+	break;
 }
 
-if($student[1]>79)
+if($student[1]>39)
 {
-	echo "A+";
+	echo "C";
+	break;
+}
+
+if($student[1]>32)
+{
+	echo "D";
+	break;
+}
+else
+{
+	echo "Failed";
 }
 ?>
