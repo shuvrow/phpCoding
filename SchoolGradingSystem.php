@@ -1,49 +1,49 @@
 <?php
 
 $student[1]=78;
-$student2[2]=93;
-$student3[3]=24;
-if(80 <= $student[1] && 100 >= $student[1])
+$student[2]=93;
+$student[3]=24;
+if(80 <= $student[2] && 100 >= $student[2])
+{
+	echo 'A+';
+	echo "<br/>";
+}
+
+
+elseif (70 <= $student[2] && 79 >= $student[2])
 {
 	echo 'A';
 	echo "<br/>";
 }
 
-
-elseif (70 <= $student[1] && 79 >= $student[1])
-{
-	echo 'A';
-	echo "<br/>";
-}
-
-elseif(60 <= $student[1] && 69 >= $student[1])
+elseif(60 <= $student[2] && 69 >= $student[2])
 {
 	echo 'A-';
 	echo "<br/>";
 }
 
 
-elseif(50 <= $student[1] && 59 >= $student[1])
+elseif(50 <= $student[2] && 59 >= $student[2])
 {
 	echo 'b';
 	echo "<br/>";
 }
 
 
-elseif(40 <= $student[1] && 49 >= $student[1])
+elseif(40 <= $student[2] && 49 >= $student[2])
 {
 	echo 'c';
 	echo "<br/>";
 }
 
 
-elseif(33 <= $student[1] && 39 >= $student[1])
+elseif(33 <= $student[2] && 39 >= $student[2])
 {
 	echo 'd';
 	echo "<br/>";
 }
 
-elseif(0 <= $student[1] && 32 >= $student[1])
+elseif(0 <= $student[2] && 32 >= $student[2])
 {
 	echo 'd';
 	echo "<br/>";
