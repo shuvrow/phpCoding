@@ -10,18 +10,18 @@ $fields = array
 
 
 
-function collectinformation($key)
+function collectinformation($key,$value,$i)
 {
 echo $key ."<br/>";
+print_r($value[$i])."<br/>";
+$i++;
 }
 
 
 foreach ($fields as $key => $value) {
-
-$a = collectinformation($key);
-//echo $value;
-print_r($value);
-		# code...
+//echo "$key";
+$i=1;
+$a = collectinformation($key,$value,$i);
 }
 
 ?>
