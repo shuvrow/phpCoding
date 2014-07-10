@@ -16,7 +16,7 @@ $this->email=$email1;
 
 function getName()
 {
-	return "FRFL2";
+	return "FRFL1st";
 }
 
 }

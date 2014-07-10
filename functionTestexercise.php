@@ -20,7 +20,7 @@ $count++;
 
 
 foreach ($fields as $key => $value) {
-//echo "$key";
+//echo "$key";  
 
 $a = collectinformation($key,$value,$count);
 }
