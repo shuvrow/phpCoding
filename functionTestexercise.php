@@ -7,22 +7,22 @@ $fields = array
 		"cate Blanchett"),
 	);
 
+$count=0;
 
 
-
-function collectinformation($key,$value,$i)
+function collectinformation($key,$value,$count)
 {
-echo $key ."<br/>";
-print_r($value[$i]);
+echo $key ."\n";
+print_r($value[$count]);
 echo "<br/>";
-$i++;
+$count++;
 }
 
 
 foreach ($fields as $key => $value) {
 //echo "$key";
-$i=0;
-$a = collectinformation($key,$value,$i);
+
+$a = collectinformation($key,$value,$count);
 }
 
 ?>
