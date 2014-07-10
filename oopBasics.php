@@ -4,6 +4,16 @@ class User
 {
 var $name="FTFL";
 var $email="";
+
+function __construct($name1="FTFL1st ",$email1="shuvrow@gmail.com")
+{
+$this->name=$name1;
+$this->email=$email1;
+
+}
+
+
+
 function getName()
 {
 	return "FRFL2";
@@ -11,6 +21,8 @@ function getName()
 
 }
 //instances of User
+
+
 $user1=new User();
 
 
@@ -18,5 +30,7 @@ $user1=new User();
 
 
 echo $user1->name;
-echo $user1->getName();
+echo $user1->email;
+
+$user1->getName();
 ?>
