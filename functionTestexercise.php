@@ -13,14 +13,15 @@ $fields = array
 function collectinformation($key,$value,$i)
 {
 echo $key ."<br/>";
-print_r($value[$i])."<br/>";
+print_r($value[$i]);
+echo "<br/>";
 $i++;
 }
 
 
 foreach ($fields as $key => $value) {
 //echo "$key";
-$i=1;
+$i=0;
 $a = collectinformation($key,$value,$i);
 }
 
