@@ -12,12 +12,15 @@ $fields = array
 
 function collectinformation($key)
 {
-echo $key;
-
+echo $key ."<br/>";
 }
+
+
 foreach ($fields as $key => $value) {
 
 $a = collectinformation($key);
+//echo $value;
+print_r($value);
 		# code...
 }
 
