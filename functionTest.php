@@ -13,7 +13,7 @@ $fields = array
 function collectinformation($name)
 {
 
-
+echo $name;
 }
 $a = collectinformation(foreach ($fields as $key => $value) ;
 

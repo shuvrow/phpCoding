@@ -10,12 +10,15 @@ $fields = array
 
 
 
-function collectinformation($name)
+function collectinformation($key)
 {
-
+echo $key;
 
 }
-$a = collectinformation(foreach ($fields as  $value) {
-	
+foreach ($fields as $key => $value) {
+
+$a = collectinformation($key);
+		# code...
 }
+
 ?>
