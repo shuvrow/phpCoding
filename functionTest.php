@@ -1,4 +1,4 @@
-<?php
+/*<?php
 $fields = array
 (
 	"genres" => array("comedy","tragedy","action","romance"),
@@ -17,6 +17,7 @@ echo $name;
 }
 $a = collectinformation(foreach ($fields as $key => $value) ;
 
-	
+echo $a;	
 
 ?>
+*/
