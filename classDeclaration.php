@@ -1,5 +1,5 @@
 <?php
-class userInformation
+class customerInformation
 {
 var $id;
 var $name;
@@ -21,7 +21,7 @@ echo $this->salary."<br/>";
 }
 }
 
-$userInfo = new userInformation("007","james","10000");
+$userInfo = new customerInformation("007","james","10000");
 $userInfo -> showInformation();
 
 
