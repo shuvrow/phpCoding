@@ -1,0 +1,9 @@
+Student Identification:
+				
+				Has : 	id
+						name
+						grade or class
+				
+				
+				Does:	read
+						
