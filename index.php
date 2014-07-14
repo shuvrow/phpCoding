@@ -7,10 +7,11 @@
 		<?php
 			require_once 'person.php';
 			$a_person=new Person();
-			$a_person->first_name='james';
-			$a_person->middle_name='locus';
-			$a_person->last_name='scott';
+			$a_person->set_first_name('james');
+			$a_person->set_middle_name('locus');
+			$a_person->get_last_name('scott');
 			
+			//echo $a_person->set_first_name();
 			echo $a_person->get_full_name();
 			echo "<br/>";
 			echo $a_person->get_reverse_name();
