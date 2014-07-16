@@ -1,0 +1,14 @@
+2 OBJECTS
+
+	CUSTOMER
+		name
+		email
+		an account
+	
+	Account
+	has:	account number
+		opening date
+		balance
+
+	does:	deposit
+		withdraw
