@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+<title>
+	Java script's operators
+</title>
+</head>
+<body>
+	<script>
+		var aVariable=121.21;
+		anothervariable=222;
+		var aString="Hello Shuvrow";
+		var anotherString='1111';
+		var aBoolean=true;
+		var anemptyValue='';
+		var anemptySpace="   ";
+		var aNumber0=0;
+		var aNumberLikeString='000';
+		var nullvar= null;
+		var ftfl01;
+
+
+
+console.log("jahangir" in window);
+
+	function sum()
+	{
+		var addTwoNumber=arguments[0]+arguments[1];
+		return addTwoNumber;
+	}
+	
+		function summation(num1,num2)
+	{
+		var addTwoNumber=arguments[0]+arguments[1];
+		return addTwoNumber;
+	}
+	
+	var result1=sum(100,200);
+	console.log(result1);
+	var result2=summation(100,200);
+	console.log(result2);
+	var result3=summation(100,200,300);
+	console.log(result3);
+
+	//self executing function or anonymous
+	//parenthesis used for avoiding ASI.. its called grouping
+	console.log((function (){
+		return arguments[0]
+		+arguments[1]
+		+arguments[2];
+	})(3,300,200));
+
+
+
+
+
+
+var stringOne="Hello ";
+var stringTwo="Ftfl";
+var number1=5;
+var number2=9;
+console.log(stringOne+stringTwo);
+console.log(number1+number2);
+console.log(stringOne+number1);
+console.log(stringOne*number1);
+console.log(typeof NaN);
+console.log(isNaN(stringOne*number1));
+console.log(Number('afds'));
+console.log(Number('10adhsb'));
+
+
+var aVar='string'; //true
+var aVar=123; //true
+var aVar=0; //false
+var aVar; //false
+var aVar=null; //false
+var aVar='0'; //true
+var aVar='';//false
+if (aVar)
+	{console.log('i am treated as true');}
+else
+	{
+		console.log('i am treated as false');
+	}
+
+</script>
+
+
+
+</body>
+</html>
