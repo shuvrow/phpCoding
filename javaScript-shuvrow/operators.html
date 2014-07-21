@@ -24,22 +24,37 @@
 
 console.log("jahangir" in window);
 
-	function sum(numOne,numTwo)
+	function sum()
 	{
-		var add=numOne+numTwo;
-		return add;
+		var addTwoNumber=arguments[0]+arguments[1];
+		return addTwoNumber;
 	}
-	console.log(sum(4,4));
+	
+		function summation(num1,num2)
+	{
+		var addTwoNumber=arguments[0]+arguments[1];
+		return addTwoNumber;
+	}
+	
+	var result1=sum(100,200);
+	console.log(result1);
+	var result2=summation(100,200);
+	console.log(result2);
+	var result3=summation(100,200,300);
+	console.log(result3);
 
-/*
-	for(var count=0;count<10;count++)
-		{
-			do{
-			console.log("*");
-			}
-			while(count>0);
-		}
-	*/
+	//self executing function or anonymous
+	//parenthesis used for avoiding ASI.. its called grouping
+	console.log((function (){
+		return arguments[0]
+		+arguments[1]
+		+arguments[2];
+	})(3,300,200));
+
+
+
+
+
 
 var stringOne="Hello ";
 var stringTwo="Ftfl";
@@ -52,7 +67,26 @@ console.log(stringOne*number1);
 console.log(typeof NaN);
 console.log(isNaN(stringOne*number1));
 console.log(Number('afds'));
+console.log(Number('10adhsb'));
+
+
+var aVar='string'; //true
+var aVar=123; //true
+var aVar=0; //false
+var aVar; //false
+var aVar=null; //false
+var aVar='0'; //true
+var aVar='';//false
+if (aVar)
+	{console.log('i am treated as true');}
+else
+	{
+		console.log('i am treated as false');
+	}
+
 </script>
+
+
 
 </body>
 </html>
